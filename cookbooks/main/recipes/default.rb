@@ -2,7 +2,7 @@ require_recipe "pdftk"
 
 require_recipe "wkhtmltopdf"
 
-require_recipe "emerge"
+#require_recipe "emerge" #imagemagick
 
 #execute "testing" do
 #  command %Q{
