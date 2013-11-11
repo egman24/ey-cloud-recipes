@@ -1,3 +1,9 @@
+require_recipe "pdftk"
+
+require_recipe "wkhtmltopdf"
+
+require_recipe "emerge"
+
 #execute "testing" do
 #  command %Q{
 #    echo "i ran at #{Time.now}" >> /root/cheftime
